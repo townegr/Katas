@@ -9,5 +9,3 @@ def leap_year?(year)
     puts false
   end
 end
-
-leap_year?(2014)

@@ -1,4 +1,3 @@
-require 'pry'
 def factorial(n)
   #Using Ruby's inject method
   (1..n).inject{ |product, num| product * num }
@@ -12,5 +11,3 @@ def factorial(n)
     n * factorial(n-1)
   end
 end
-
-puts factorial(5)
