@@ -1,20 +1,21 @@
 numbers = "1, 1, 1, 2, 2, 3, 3, 4, 4"
 
-def arrayify
-  arrayify = []
+def arrayify(list)
+  new_array = []
   a = list.split(', ',)
   a.each do |i|
-    arrayify << i.to_i
+    new_array << i.to_i
   end
+  new_array
 end
 
 def uniques(list)
 
-	#this should be defined in new method
-	arrayify = []
+  #this should be defined in new method
+  arrayify = []
   a = list.split(', ',)
   a.each do |i|
-  	arrayify << i.to_i
+    arrayify << i.to_i
   end
 
   #builds a counter using a hash where k = item and v = frequency
