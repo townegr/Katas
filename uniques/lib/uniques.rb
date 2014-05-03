@@ -1,12 +1,11 @@
-require 'pry'
-
 numbers = "1, 1, 1, 2, 2, 3, 3, 4, 4"
 
 def arrayify
   arrayify = []
   a = list.split(', ',)
-  a.each do |i| 
-  arrayify << i.to_i
+  a.each do |i|
+    arrayify << i.to_i
+  end
 end
 
 def uniques(list)
@@ -14,7 +13,7 @@ def uniques(list)
 	#this should be defined in new method
 	arrayify = []
   a = list.split(', ',)
-  a.each do |i| 
+  a.each do |i|
   	arrayify << i.to_i
   end
 
@@ -29,6 +28,5 @@ def uniques(list)
   non_dups
 
 end
-
 
 p uniques(numbers)
