@@ -1,5 +1,3 @@
-require 'pry'
-
 def sort_list(list)
   unsorted_array = list.split(" ").map! { |i| i.to_f }
   sorted_array = []
